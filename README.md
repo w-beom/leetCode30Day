@@ -7,8 +7,9 @@
  
  피드백 부탁드립니다.
  
-#1Day-------------------------------------------------------------------------------------------
- 
+1Day
+---
+<pre>
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
 Note:
@@ -23,3 +24,6 @@ Example 2:
 
 Input: [4,1,2,1,2]
 Output: 4
+</pre>
+
+
