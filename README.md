@@ -1,5 +1,6 @@
 # leetCode30Day
- leetcode 30일 챌린지
+leetcode 30일 챌린지
+---
  
  https://leetcode.com/ 에서 코로나로 인해 나가지 못하는 방구석 개발자들을 위해 30일 코딩 챌린지를 오픈했습니다.
  
