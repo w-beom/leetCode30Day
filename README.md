@@ -60,3 +60,17 @@ Follow up:
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 </pre>
 
+4Day
+---
+
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+<pre>
+Example:
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+</pre>
+Note:
+You must do this in-place without making a copy of the array.
+Minimize the total number of operations.
+
+
