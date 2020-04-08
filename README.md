@@ -155,7 +155,7 @@ Example 4:
 Input: arr = [1,1,2,2]
 Output: 2
 Explanation: Two 1s are counted cause 2 is in arr.
-<pre>
+</pre>
  
 
 Constraints:
