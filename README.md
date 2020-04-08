@@ -102,3 +102,92 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 </pre>
 
+6Day
+---
+Given an array of strings, group anagrams together.
+
+<pre>
+Example:
+
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+Output:
+[
+  ["ate","eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+</pre>
+Note:
+
+- All inputs will be in lowercase.
+- The order of your output does not matter.
+
+7Day
+---
+Given an integer array arr, count element x such that x + 1 is also in arr.
+
+If there're duplicates in arr, count them seperately.
+ 
+<pre>
+Example 1:
+
+Input: arr = [1,2,3]
+Output: 2
+Explanation: 1 and 2 are counted cause 2 and 3 are in arr.
+</pre>
+<pre>
+Example 2:
+
+Input: arr = [1,1,3,3,5,5,7,7]
+Output: 0
+Explanation: No numbers are counted, cause there's no 2, 4, 6, or 8 in arr.
+</pre>
+<pre>
+Example 3:
+
+Input: arr = [1,3,2,3,5,0]
+Output: 3
+Explanation: 0, 1 and 2 are counted cause 1, 2 and 3 are in arr.
+</pre>
+<pre>
+Example 4:
+
+Input: arr = [1,1,2,2]
+Output: 2
+Explanation: Two 1s are counted cause 2 is in arr.
+<pre>
+ 
+
+Constraints:
+
+- 1 <= arr.length <= 1000
+- 0 <= arr[i] <= 1000
+
+8Day
+---
+Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+
+If there are two middle nodes, return the second middle node.
+
+ 
+<pre>
+Example 1:
+
+Input: [1,2,3,4,5]
+Output: Node 3 from this list (Serialization: [3,4,5])
+The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
+Note that we returned a ListNode object ans, such that:
+ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.
+</pre>
+<pre>
+Example 2:
+
+Input: [1,2,3,4,5,6]
+Output: Node 4 from this list (Serialization: [4,5,6])
+Since the list has two middle nodes with values 3 and 4, we return the second one.
+</pre>
+ 
+
+Note:
+
+- The number of nodes in the given list will be between 1 and 100.
