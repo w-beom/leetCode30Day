@@ -20,7 +20,7 @@ public class Day10 {
 	}
 
 	public int top() {
-		return stack.get(0);
+		return stack.get(0);	
 
 	}
 
