@@ -469,10 +469,11 @@ Example 1:
 
 Input: [8,5,1,7,10,12]
 Output: [8,5,10,1,7,null,12]
+</pre>
 ![image](https://user-images.githubusercontent.com/60081555/79992027-eb6b1300-84ed-11ea-9341-426b21d70b5a.png)
 
  
-</pre>
+
 Note: 
 
 1. 1 <= preorder.length <= 100
@@ -495,35 +496,37 @@ Submissions making more than 1000 calls to BinaryMatrix.get will be judged Wrong
 For custom testing purposes you're given the binary matrix mat as input in the following four examples. You will not have access the binary matrix directly.
 
  
-<pre>
+
 Example 1:
+
 ![image](https://user-images.githubusercontent.com/60081555/79991982-ddb58d80-84ed-11ea-8487-2c752944c4be.png)
 
-
+<pre>
 Input: mat = [[0,0],[1,1]]
 Output: 0
 </pre>
-<pre>
-Example 2:
-![image](https://user-images.githubusercontent.com/60081555/79991994-e27a4180-84ed-11ea-9913-62f97998841a.png)
 
+Example 2:
+
+![image](https://user-images.githubusercontent.com/60081555/79991994-e27a4180-84ed-11ea-9913-62f97998841a.png)
+<pre>
 
 Input: mat = [[0,0],[0,1]]
 Output: 1
 </pre>
-<pre>
+
 Example 3:
+
 ![image](https://user-images.githubusercontent.com/60081555/79992005-e5753200-84ed-11ea-9c2a-65ad50709ed4.png)
-
-
-
+<pre>
 Input: mat = [[0,0],[0,0]]
 Output: -1
 </pre>
-<pre>
-Example 4:
-![image](https://user-images.githubusercontent.com/60081555/79992013-e73ef580-84ed-11ea-881d-f5714f3f06ea.png)
 
+Example 4:
+
+![image](https://user-images.githubusercontent.com/60081555/79992013-e73ef580-84ed-11ea-881d-f5714f3f06ea.png)
+<pre>
 
 Input: mat = [[0,0,0,1],[0,0,1,1],[0,1,1,1]]
 Output: 1
