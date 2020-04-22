@@ -287,3 +287,60 @@ Note:
 
 1. 1 <= stones.length <= 30
 2. 1 <= stones[i] <= 1000
+
+13Day
+---
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+<pre>
+Example 1:
+Input: [0,1]
+Output: 2
+Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+</pre>
+<pre>
+Example 2:
+Input: [0,1,0]
+Output: 2
+Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+</pre>
+
+14Day
+---
+You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:
+
+- direction can be 0 (for left shift) or 1 (for right shift). 
+- amount is the amount by which string s is to be shifted.
+- A left shift by 1 means remove the first character of s and append it to the end.
+- Similarly, a right shift by 1 means remove the last character of s and add it to the beginning.
+Return the final string after all operations.
+<pre>
+Example 1:
+
+Input: s = "abc", shift = [[0,1],[1,2]]
+Output: "cab"
+Explanation: 
+[0,1] means shift to left by 1. "abc" -> "bca"
+[1,2] means shift to right by 2. "bca" -> "cab"
+</pre>
+<pre>
+Example 2:
+
+Input: s = "abcdefg", shift = [[1,1],[1,1],[0,2],[1,3]]
+Output: "efgabcd"
+Explanation:  
+[1,1] means shift to right by 1. "abcdefg" -> "gabcdef"
+[1,1] means shift to right by 1. "gabcdef" -> "fgabcde"
+[0,2] means shift to left by 2. "fgabcde" -> "abcdefg"
+[1,3] means shift to right by 3. "abcdefg" -> "efgabcd"
+</pre>
+ 
+
+Constraints:
+
+- 1 <= s.length <= 100
+- s only contains lower case English letters.
+- 1 <= shift.length <= 100
+- shift[i].length == 2
+- 0 <= shift[i][0] <= 1
+- 0 <= shift[i][1] <= 100
+Note: The length of the given binary array will not exceed 50,000.
