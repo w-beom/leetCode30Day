@@ -553,3 +553,19 @@ Output: 2
 Note:
 1. The length of the array is in range [1, 20,000].
 2. The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
+
+23Day
+---
+Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
+<pre>
+Example 1:
+
+Input: [5,7]
+Output: 4
+</pre>
+<pre>
+Example 2:
+
+Input: [0,1]
+Output: 0
+</pre>
