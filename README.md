@@ -762,7 +762,7 @@ We get the given string from the concatenation of an array of integers arr and t
  
 
 Example 1:
-
+![image](https://user-images.githubusercontent.com/60081555/80739125-e68f0a80-8b50-11ea-9c68-58b4f0fb29d0.png)
 
 <pre>
 Input: root = [0,1,0,0,1,0,null,null,1,0,0], arr = [0,1,0,1]
@@ -777,12 +777,14 @@ Other valid sequences are:
 Example 2:
 
 
+![image](https://user-images.githubusercontent.com/60081555/80739139-e989fb00-8b50-11ea-9d82-1fd9eafd2369.png)
 <pre>
 Input: root = [0,1,0,0,1,0,null,null,1,0,0], arr = [0,0,1]
 Output: false 
 Explanation: The path 0 -> 0 -> 1 does not exist, therefore it is not even a sequence.
 </pre>
 Example 3:
+![image](https://user-images.githubusercontent.com/60081555/80739144-eb53be80-8b50-11ea-8cb6-235a21734455.png)
 
 
 <pre>
